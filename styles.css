@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Frank+Ruhl+Libre:wght@300&family=Roboto+Slab:wght@300&family=Roboto:wght@100&display=swap');
+
+html, body, header, nav, p, h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: #000;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  /*text-decoration: underline;
+  border: 1px solid; */
+  color: #999;
+}
+
+.highlight {
+  color: #FF0000;
+}
+
+h1, h2, h3 {
+  color: #000;
+}
+
+h1 {
+  font: bold 7.5rem "Cabin Sketch";
+  letter-spacing: -.15em;
+}
+
+h2 {
+  font: 300 2.5rem "Roboto Slab";
+}
+
+h3 {
+  font: 300 1.75rem "Roboto Slab";
+  margin-bottom: 10px;
+}
+
+p {
+  font: 100 1.25rem "Roboto";
+  line-height: 2rem;
+}
+
+/* HEADER
+   ---------------------------------------------*/
+
+header {
+  display: flex;
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 140px;
+  border-bottom: 1px solid #ccc;
+  background-color: #EEE;
+}
+
+nav li {
+  padding-top: 0.5em;
+}
+
+nav a {
+  font: 300 1.25rem "Roboto Slab";
+  color: #000;
+  display: block;
+}
+
+
+/* WHO-WE
+   --------------------------------------------*/
+
+#who-we {
+  display: flex;
+  justify-content: start;
+  overflow: hidden;
+  width: 100%;
+  height: 300px;
+  margin-top: 140px;
+
+  /*background: url("./images/cb-color.jpg") no-repeat;
+  background-position: -200px -20px;
+  background-size: 60%;*/
+
+}
+
+#who-we > img {
+  max-width: 500px;
+  height: auto;
+  /*position: relative;
+  left: -200px;*/
+  padding-top: 10px;
+  display: block;
+}
+
+#who-we-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+/* WHAT-WE-DO
+   --------------------------------------------*/
+
+#what-we-do {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  border-top: 1px solid #ccc;
+  /*background-image: url("./images/cb-middle.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 20%;  */
+  background-color: #EEE;
+}
+
+#what-we-do > .container {
+  border: 1px solid #ccc;
+  width: 350px;
+  margin: 30px 0 30px 20px;
+  padding: 10px;
+  background-color: #FFF;
+}
+
+/* WHAT-WE-LOOK-LIKE-GALLERY
+   --------------------------------------------*/
+/* #what-we-look-like-gallery { 
+  width: 800px; 
+}
+
+#what-we-look-like-gallery ul { 
+  width: 300px; 
+  list-style-type: none;
+	float: left; 
+}
+  
+#what-we-look-like-gallery li { 
+  display: inline; 
+	float: left;
+	padding: 16px; 
+}
+        
+#what-we-look-like-gallery img {
+  border-style: none; 
+}
+
+figure { 
+  padding-top: 30px;
+	text-align: center; 
+}
+
+figcaption { 
+  font-weight: bold;
+  font-size: 1.5em; 
+} */
+
+
+/* WHAT-WE-LOOK-LIKE
+   --------------------------------------------*/
+
+   #what-we-look-like {
+    width: 100%;
+    border-top: 1px solid #ccc;
+  }
+
+  #what-we-look-like > .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 80%;
+    /* border-right: 2px dotted #ccc; */
+  }
+
+  #what-we-look-like > .wrapper > .container {
+    border: 1px solid #ccc;
+    width: 250px;
+    margin: 30px 10px 30px 20px;
+    padding: 10px;
+    background-color: #FFF;
+    text-align: center;
+    
+  }
+
+  #what-we-look-like > .wrapper > .container > img {
+    height: 250px;
+    width: auto;
+  }
+
+  #what-we-look-like > .container > h3 {
+    background-color: #EEE;
+  }
+
+/* FOOTER
+   --------------------------------------------*/
+
+footer {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background-color: #EEE;
+
+}
+
+/* TEMP */
+footer p {
+  font: 300 1.25rem "Roboto Slab";
+  color: #ddd;
+  padding: 30px;
+}
+
+h1.logo {
+  font-family: "Cabin Sketch";
+  font-size: 7.5rem;
+  font-weight: bold;
+  letter-spacing: -.15em;
+}
